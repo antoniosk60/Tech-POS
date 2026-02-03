@@ -12,6 +12,7 @@ import {
   Settings,
   Sparkles
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Product, Sale, View } from './types';
 import { INITIAL_PRODUCTS } from './constants';
 import { POS } from './components/POS';
@@ -216,6 +217,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
+      <SpeedInsights />
     </div>
   );
 };
